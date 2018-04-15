@@ -15,7 +15,7 @@ export default class Table extends Component {
     render() {
         return (
             <div>
-                <table>
+                <table className="table table-bordered"> 
                     <thead>
                         <tr>
                             <th>Name</th>
